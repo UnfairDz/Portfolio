@@ -1,0 +1,138 @@
+.me-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+  width: 380px;
+  margin-right: 100px;
+  margin-left: 0rem;
+  background-color: var(--neutral-color);
+  text-align: center;
+  box-shadow: -10px 5px 5px rgba(0, 0, 0, 0.1);
+}
+
+.me-img {
+  margin-top: 30px;
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+}
+
+.name {
+  font-family: var(--highlight-font);
+  font-size: 1.8rem;
+  margin-bottom: 2rem;
+}
+
+.line {
+  width: 10%;
+  border: 2px solid var(--highlight-color);
+  border-radius: 5px;
+}
+
+.function {
+  font-size: 1.2rem;
+  letter-spacing: 0.3rem;
+}
+
+@media screen and (min-width: 1537px) {
+  .me-section {
+    height: 700px;
+    width: 500px;
+    margin-right: 200px;
+  }
+  .me-img {
+    margin-top: 19.5px;
+    width: 195px;
+    height: 195px;
+  }
+  .name {
+    font-family: var(--highlight-font);
+    font-size: 2.3rem;
+    margin-bottom: 2rem;
+  }
+  .function {
+    font-size: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .me-section {
+    height: 500px;
+    width: 380px;
+    margin-right: 100px;
+  }
+  .me-img {
+    margin-top: 30px;
+    width: 150px;
+    height: 150px;
+  }
+  .name {
+    font-size: 1.8rem;
+    margin-bottom: 2rem;
+  }
+  .function {
+    font-size: 1.2rem;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .me-section {
+    height: 500px;
+    width: 380px;
+    margin-right: 100px;
+  }
+  .me-img {
+    margin-top: 30px;
+    width: 150px;
+    height: 150px;
+  }
+  .name {
+    font-size: 1.8rem;
+    margin-bottom: 2rem;
+  }
+  .function {
+    font-size: 1.2rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .me-section {
+    margin: 0px auto 50px auto;
+  }
+  .me-img {
+    margin-top: 30px;
+    width: 150px;
+    height: 150px;
+  }
+  .name {
+    font-size: 1.8rem;
+    margin-bottom: 2rem;
+  }
+  .function {
+    font-size: 1.2rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .me-section {
+    margin: -20px auto 30px auto;
+    height: 250px;
+    width: 190px;
+  }
+  .me-img {
+    margin-top: 15px;
+    width: 75px;
+    height: 75px;
+  }
+  .name {
+    font-family: var(--highlight-font);
+    font-size: 0.9rem;
+    margin-bottom: 1rem;
+  }
+  .function {
+    font-size: 0.6rem;
+    letter-spacing: 0.3rem;
+  }
+}

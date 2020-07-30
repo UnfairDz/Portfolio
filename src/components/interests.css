@@ -1,0 +1,143 @@
+.anchor {
+  display: block;
+  height: 80px;
+  margin-top: -80px;
+  visibility: hidden;
+}
+.interests-section {
+  width: 100%;
+  height: 530px;
+  background-color: var(--neutral-color);
+  background-image: url("https://www.transparenttextures.com/patterns/black-thread-light.png");
+}
+
+.section-interests-title {
+  color: #000;
+  margin-left: 15%;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-top: 100px;
+  font-family: var(--highlight-font);
+  font-size: 3.2rem;
+}
+
+.section-interests-underline {
+  width: 90px;
+  border: 2px solid var(--highlight-color);
+  border-radius: 5px;
+  text-align: left;
+  margin-left: 15%;
+  margin-top: 10px;
+}
+
+.section-interests-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+  margin-top: 75px;
+}
+
+.section-interests-2elements {
+  width: 40%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.section-interests-element {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.interests-rounded-img {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 125px;
+  width: 125px;
+  border-radius: 50%;
+  background-color: var(--secondary-dark-color);
+}
+
+.interests-element-title {
+  font-size: 1.2rem;
+}
+
+/*******************responsive*********************************/
+
+/***********************Min-Width*********************/
+@media screen and (min-width: 1537px) {
+  .interests-section {
+    height: 600px;
+  }
+  .section-interests-title {
+    font-size: 4.2rem;
+  }
+  .section-interests-underline {
+    width: 117px;
+  }
+  .interests-rounded-img {
+    height: 162.5px;
+    width: 162.5px;
+  }
+  .interests-element-title {
+    font-size: 1.56rem;
+  }
+}
+
+@media screen and (min-width: 2200px) {
+}
+
+/**********************max-width********************/
+@media screen and (max-width: 768px) {
+  .anchor {
+    display: block;
+    height: 60px;
+    margin-top: -60px;
+    visibility: hidden;
+  }
+  .interests-section {
+    height: 600px;
+  }
+  .section-interests-title {
+    margin-left: 30px;
+    padding-top: 30px;
+  }
+  .section-interests-underline {
+    margin-left: 30px;
+  }
+  .section-interests-content {
+    flex-direction: column;
+  }
+  .section-interests-2elements {
+    width: 100%;
+    justify-content: space-around;
+  }
+}
+@media screen and (max-width: 480px) {
+  .interests-section {
+    height: 450px;
+  }
+  .section-interests-title {
+    font-size: 1.6rem;
+    padding-top: 30px;
+  }
+  .section-interests-underline {
+    width: 45px;
+  }
+  .section-interests-2elements {
+    margin-bottom: 50px;
+  }
+  .interests-rounded-img {
+    height: 62.5px;
+    width: 62.5px;
+  }
+  .interests-icons {
+    font-size: 2rem;
+  }
+  .interests-element-title {
+    font-size: 0.6rem;
+  }
+}
