@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/Portfolio/static/css/main.ad0edd9f.chunk.css",
+    "main.js": "/Portfolio/static/js/main.055bed50.chunk.js",
+    "main.js.map": "/Portfolio/static/js/main.055bed50.chunk.js.map",
+    "runtime-main.js": "/Portfolio/static/js/runtime-main.e440ee5a.js",
+    "runtime-main.js.map": "/Portfolio/static/js/runtime-main.e440ee5a.js.map",
+    "static/js/2.58998e5b.chunk.js": "/Portfolio/static/js/2.58998e5b.chunk.js",
+    "static/js/2.58998e5b.chunk.js.map": "/Portfolio/static/js/2.58998e5b.chunk.js.map",
+    "index.html": "/Portfolio/index.html",
+    "precache-manifest.06822c71b1f2d2c34ad69c813b9d0808.js": "/Portfolio/precache-manifest.06822c71b1f2d2c34ad69c813b9d0808.js",
+    "service-worker.js": "/Portfolio/service-worker.js",
+    "static/css/main.ad0edd9f.chunk.css.map": "/Portfolio/static/css/main.ad0edd9f.chunk.css.map",
+    "static/js/2.58998e5b.chunk.js.LICENSE.txt": "/Portfolio/static/js/2.58998e5b.chunk.js.LICENSE.txt",
+    "static/media/Ramzi.jpg": "/Portfolio/static/media/Ramzi.9bf6fdfa.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e440ee5a.js",
+    "static/js/2.58998e5b.chunk.js",
+    "static/css/main.ad0edd9f.chunk.css",
+    "static/js/main.055bed50.chunk.js"
+  ]
+}
