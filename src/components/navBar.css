@@ -31,7 +31,7 @@
   background-color: var(--main-dark-color);
   text-decoration: none;
   border: none;
-  outline:none;
+  outline: none;
 }
 
 .nav li {
@@ -79,11 +79,12 @@
 }
 
 @media screen and (max-width: 768px) {
-  .navbar{
+  .navbar {
     height: 60px;
   }
   .nav {
     display: none;
+    margin-left: -100px;
   }
   .nav-icon {
     display: block;
