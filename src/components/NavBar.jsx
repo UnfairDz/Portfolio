@@ -36,9 +36,9 @@ export default function NavBar() {
             <a href="#interests">INTERESTS</a>
           </li>
         </ul>
-        <a class="nav-icon" onClick={() => responsiveNav()}>
+        <button class="nav-icon" onClick={() => responsiveNav()}>
           <FontAwesomeIcon icon={faBars} size="1x" color="#DAE1E7" />
-        </a>
+        </button>
       </nav>
       <div id="responsive" className="not-displayed">
         <ul>

@@ -291,7 +291,7 @@
 }
 
 /*********************Max-width*****************************/
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 960px) {
   .anchor {
     display: block;
     height: 60px;

@@ -28,6 +28,10 @@
 
 .nav-icon {
   display: none;
+  background-color: var(--main-dark-color);
+  text-decoration: none;
+  border: none;
+  outline:none;
 }
 
 .nav li {
@@ -65,7 +69,7 @@
   }
 }
 
-@media screen and (max-width: 889px) {
+@media screen and (max-width: 890px) {
   .navbar-brand {
     margin-left: 5%;
   }
