@@ -97,6 +97,7 @@
     display: none;
   }
   .displayed {
+    top: 0px;
     right: 0;
     position: fixed;
     margin-top: 55px;

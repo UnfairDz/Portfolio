@@ -39,31 +39,32 @@ export default function NavBar() {
         <button class="nav-icon" onClick={() => responsiveNav()}>
           <FontAwesomeIcon icon={faBars} size="1x" color="#DAE1E7" />
         </button>
+
+        <div id="responsive" className="not-displayed">
+          <ul>
+            <li>
+              <a href="#about" onClick={() => responsiveNav()}>
+                ABOUT ME
+              </a>
+            </li>
+            <li>
+              <a href="#education" onClick={() => responsiveNav()}>
+                EDUCATION
+              </a>
+            </li>
+            <li>
+              <a href="#skills" onClick={() => responsiveNav()}>
+                SKILLS
+              </a>
+            </li>
+            <li>
+              <a href="#interests" onClick={() => responsiveNav()}>
+                INTERESTS
+              </a>
+            </li>
+          </ul>
+        </div>
       </nav>
-      <div id="responsive" className="not-displayed">
-        <ul>
-          <li>
-            <a href="#about" onClick={() => responsiveNav()}>
-              ABOUT ME
-            </a>
-          </li>
-          <li>
-            <a href="#education" onClick={() => responsiveNav()}>
-              EDUCATION
-            </a>
-          </li>
-          <li>
-            <a href="#skills" onClick={() => responsiveNav()}>
-              SKILLS
-            </a>
-          </li>
-          <li>
-            <a href="#interests" onClick={() => responsiveNav()}>
-              INTERESTS
-            </a>
-          </li>
-        </ul>
-      </div>
     </div>
   );
 }
