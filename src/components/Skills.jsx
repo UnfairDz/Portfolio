@@ -117,33 +117,20 @@ function whichPart(partNumber) {
       <div className="section-skills-content-elements">
         <div className="section-skills-content-element">
           <div>
-            <p className="skill-name">Photoshop</p>
+            <p className="skill-name">VS Code</p>
           </div>
           <div className="progress-value-display">
             <div class="progress">
-              <div class="progress-value load20"></div>
+              <div class="progress-value load90"></div>
             </div>
             <div>
-              <p className="skill-pourcentage load4s">20%</p>
+              <p className="skill-pourcentage load4s">90%</p>
             </div>
           </div>
         </div>
         <div className="section-skills-content-element">
           <div>
             <p className="skill-name">Blender</p>
-          </div>
-          <div className="progress-value-display">
-            <div class="progress">
-              <div class="progress-value load60"></div>
-            </div>
-            <div>
-              <p className="skill-pourcentage load4s">60%</p>
-            </div>
-          </div>
-        </div>
-        <div className="section-skills-content-element">
-          <div>
-            <p className="skill-name">Latex</p>
           </div>
           <div className="progress-value-display">
             <div class="progress">
@@ -156,14 +143,27 @@ function whichPart(partNumber) {
         </div>
         <div className="section-skills-content-element">
           <div>
-            <p className="skill-name">Office</p>
+            <p className="skill-name">Photoshop</p>
           </div>
           <div className="progress-value-display">
             <div class="progress">
-              <div class="progress-value load80"></div>
+              <div class="progress-value load30"></div>
             </div>
             <div>
-              <p className="skill-pourcentage load4s">80%</p>
+              <p className="skill-pourcentage load4s">30%</p>
+            </div>
+          </div>
+        </div>
+        <div className="section-skills-content-element">
+          <div>
+            <p className="skill-name">Illustrator</p>
+          </div>
+          <div className="progress-value-display">
+            <div class="progress">
+              <div class="progress-value load10"></div>
+            </div>
+            <div>
+              <p className="skill-pourcentage load4s">10%</p>
             </div>
           </div>
         </div>

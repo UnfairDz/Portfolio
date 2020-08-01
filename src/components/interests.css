@@ -118,6 +118,32 @@
 }
 @media screen and (max-width: 480px) {
   .interests-section {
+    height: 580px;
+  }
+  .section-interests-title {
+    font-size: 2.3rem;
+    padding-top: 30px;
+  }
+  .section-interests-underline {
+    width: 60px;
+  }
+  .section-interests-2elements {
+    margin-bottom: 70px;
+  }
+  .interests-rounded-img {
+    height: 87px;
+    width: 87px;
+  }
+  .interests-icons {
+    font-size: 3rem;
+  }
+  .interests-element-title {
+    font-size: 0.9rem;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .interests-section {
     height: 450px;
   }
   .section-interests-title {

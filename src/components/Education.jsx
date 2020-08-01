@@ -25,7 +25,7 @@ export default function Education() {
             </h1>
             <p className="year">2016–2019</p>
             <p className="info-description">
-              Graduated in 2019 Bachelor in Computer Science (Information System).
+              Graduated in 2019 Bachelor in Computer Science - Information System.
             </p>
           </div>
           <div className="info">
@@ -34,7 +34,7 @@ export default function Education() {
             </h1>
             <p className="year">2019-Now</p>
             <p className="info-description">
-              Studying to get my Master degrée in Database Management.
+              Studying to get my Master degrée in Information and Data System.
             </p>
           </div>
         </div>
