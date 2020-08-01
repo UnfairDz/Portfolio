@@ -83,7 +83,7 @@
     height: 60px;
   }
   .navbar-brand {
-    margin-left: 5%;
+    padding-left: 3%;
   }
   .nav {
     display: none;
