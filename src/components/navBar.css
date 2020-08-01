@@ -104,7 +104,7 @@
   }
   .displayed ul {
     list-style-type: none;
-    padding-right: 40px;
+    margin-right: 40px;
   }
   .displayed li {
     margin-bottom: 10px;
