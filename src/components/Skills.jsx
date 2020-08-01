@@ -73,19 +73,6 @@ function whichPart(partNumber) {
         </div>
         <div className="section-skills-content-element">
           <div>
-            <p className="skill-name">MongoDB</p>
-          </div>
-          <div className="progress-value-display">
-            <div class="progress">
-              <div class="progress-value load60"></div>
-            </div>
-            <div>
-              <p className="skill-pourcentage load4s">60%</p>
-            </div>
-          </div>
-        </div>
-        <div className="section-skills-content-element">
-          <div>
             <p className="skill-name">EJS</p>
           </div>
           <div className="progress-value-display">
@@ -99,7 +86,7 @@ function whichPart(partNumber) {
         </div>
         <div className="section-skills-content-element">
           <div>
-            <p className="skill-name">Express</p>
+            <p className="skill-name">NodeJs</p>
           </div>
           <div className="progress-value-display">
             <div class="progress">
@@ -107,6 +94,19 @@ function whichPart(partNumber) {
             </div>
             <div>
               <p className="skill-pourcentage load4s">50%</p>
+            </div>
+          </div>
+        </div>
+        <div className="section-skills-content-element">
+          <div>
+            <p className="skill-name">MongoDB</p>
+          </div>
+          <div className="progress-value-display">
+            <div class="progress">
+              <div class="progress-value load40"></div>
+            </div>
+            <div>
+              <p className="skill-pourcentage load4s">40%</p>
             </div>
           </div>
         </div>
@@ -121,10 +121,10 @@ function whichPart(partNumber) {
           </div>
           <div className="progress-value-display">
             <div class="progress">
-              <div class="progress-value load90"></div>
+              <div class="progress-value load70"></div>
             </div>
             <div>
-              <p className="skill-pourcentage load4s">90%</p>
+              <p className="skill-pourcentage load4s">70%</p>
             </div>
           </div>
         </div>

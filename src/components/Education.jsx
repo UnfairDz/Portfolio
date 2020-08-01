@@ -34,7 +34,7 @@ export default function Education() {
             </h1>
             <p className="year">2019-Now</p>
             <p className="info-description">
-              Studying to get my Master degrée in Information and Data System.
+              Studying to get my Master degree in Information and Data System.
             </p>
           </div>
         </div>
