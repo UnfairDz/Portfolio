@@ -8,14 +8,19 @@
   --main-font: "Lato";
 }
 
+html,
 body {
-  position: relative;
+  overflow-x: hidden;
+}
+
+body {
+  width: 100%;
   margin: 0;
   font-family: var(--main-font);
-  overflow-x: hidden;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
   font-size: 14px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 code {
