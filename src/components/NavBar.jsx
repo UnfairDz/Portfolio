@@ -17,7 +17,6 @@ function responsiveNav() {
 
 export default function NavBar() {
   return (
-    <div>
       <nav className="navbar">
         <p className="navbar-brand">
           Ramzi BS <span className="brand-function">/ Web Developer</span>
@@ -65,6 +64,5 @@ export default function NavBar() {
           </ul>
         </div>
       </nav>
-    </div>
   );
 }

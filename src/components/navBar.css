@@ -23,7 +23,7 @@
 }
 
 .nav {
-  margin-right: 10%;
+  margin-right: 80px;
 }
 
 .nav-icon {
@@ -71,19 +71,16 @@
 
 @media screen and (max-width: 890px) {
   .navbar-brand {
-    margin-left: 5%;
+    margin-left: 40px;
   }
   .nav {
-    margin-right: 1%;
+    margin-right: 10px;
   }
 }
 
 @media screen and (max-width: 768px) {
   .navbar{
     height: 60px;
-  }
-  .navbar-brand {
-    padding-left: 3%;
   }
   .nav {
     display: none;
@@ -105,7 +102,7 @@
   }
   .displayed ul {
     list-style-type: none;
-    margin-right: 40px;
+    padding-right: 40px;
   }
   .displayed li {
     margin-bottom: 10px;
@@ -120,9 +117,6 @@
 }
 
 @media screen and (max-width: 480px) {
-  .navbar{
-    width: 100%;
-  }
   .navbar-brand {
     font-size: 1rem;
   }
