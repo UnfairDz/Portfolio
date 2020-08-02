@@ -47,7 +47,7 @@ function whichPart(partNumber) {
         </div>
         <div className="section-skills-content-element">
           <div>
-            <p className="skill-name">Java Script</p>
+            <p className="skill-name">JavaScript</p>
           </div>
           <div className="progress-value-display">
             <div class="progress">
